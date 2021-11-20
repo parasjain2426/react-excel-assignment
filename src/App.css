@@ -1,0 +1,105 @@
+.App {
+  text-align: left;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+*::-webkit-scrollbar-track {
+  background: #fcfbfb;
+}
+
+/* Handle */
+
+*::-webkit-scrollbar-thumb {
+  background: #cdebff;
+}
+
+.excel-col {
+  margin: 10px;
+  text-align: left;
+}
+
+.excel-col:hover {
+  cursor: pointer;
+}
+
+.grids {
+  min-height: 100px;
+  min-width: 100px;
+  border: 1px solid black;
+}
+
+.react-bootstrap-table thead {
+  position: sticky;
+  padding: 10px;
+  top: 0;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+.react-bootstrap-table td {
+  text-align: right;
+  padding: 10px;
+}
+
+.react-bootstrap-table-pagination {
+  width: 15%;
+}
+
+.grid-container {
+  width: 95%;
+  height: 500px;
+  overflow: auto;
+  margin: 10px auto !important;
+}
+
+.col-container {
+  position: sticky;
+  top: 0;
+  height: inherit;
+  overflow: auto;
+}
+
+.axis-container {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.file-upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.file-upload-container input {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+hr {
+  width: 60%;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.no-columns-sel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #efeded;
+  font-weight: 600;
+}
+
+.file-upload-header {
+  text-align: center;
+  margin: 5px;
+}
